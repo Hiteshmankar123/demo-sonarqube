@@ -11,12 +11,12 @@ pipeline {
                 echo 'Build Successful'
             }
         }
-        stage('Pull'){
+        stage('Test'){
             steps {
-                echo 'Build Successful'
+                echo 'Test Successful'
             }
         }
-        stage('Pull'){
+        stage('Deploy'){
             steps {
                 echo 'Build Successful'
             }
