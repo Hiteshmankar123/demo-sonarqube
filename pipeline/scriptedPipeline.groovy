@@ -3,7 +3,7 @@ node {
         git 'https://github.com/shubhamkalsait/studentapp-ui.git'
     }
     stage('Build') { 
-        echo ''
+        echo 'Buidl Successful'
     }
     stage('Test') { 
         // 
