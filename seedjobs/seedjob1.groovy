@@ -1,5 +1,5 @@
 job('example') {
     steps {
-        shell('echo Welcome To Cloudblitz')
+        shell('echo "Welcome To Cloudblitz"')
     }
 }
