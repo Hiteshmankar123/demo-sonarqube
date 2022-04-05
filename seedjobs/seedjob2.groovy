@@ -1,8 +1,8 @@
-pipelineJob('scripted2') {
+pipelineJob('scripted3') {
 
   description('')
 
-  displayName('scripted2')
+  displayName('scripted3')
 
   configure { flowdefinition ->
 
