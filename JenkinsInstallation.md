@@ -2,7 +2,7 @@
 
 ```shell
 # install java
-yum install java-11-openjdk wgte -y
+yum install java-11-openjdk wg -y
 # configure jenkins repo
 wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
