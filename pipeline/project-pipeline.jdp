@@ -14,8 +14,8 @@ pipeline {
         stage('Test'){
             steps {
                 withSonarQubeEnv {
-    // some block
-}
+
+            }
                 sh 'mvn sonar:sonar'
             }
         }
