@@ -1,0 +1,15 @@
+ -----
+ name: hitesh
+ address:nagpur
+ -----
+ ------
+ class: linux
+ fees: 16000
+ ------
+ fruit:
+ - mango 
+ - banana
+ - apple
+ ------
+
+

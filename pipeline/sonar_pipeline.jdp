@@ -6,10 +6,13 @@ pipeline {
                 git 'https://github.com/shubhamkalsait/studentapp-ui.git'
             }
         }
-        stage('Build'){
+        stage('sonar-Build'){
             steps {
-                sh 'mvn clean package'
-            }
+                withSonarQubeEnv('sonar-studentapp') {
+                        sh 'mvn clean package sonar:sonar'
+                    }
+                }   
+            }    
         }
         stage('Test'){
             steps {

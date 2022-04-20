@@ -36,8 +36,8 @@ systemctl restart mysqld
 mysql -p -u root
 mysql>
     create database sonarqube;
-    create user 'sonarqube'@'localhost' identified by 'Redhat@123';
-    grant all privileges on sonarqube.* to 'sonarqube'@'localhost';
+   create user 'sonarqube'@'localhost' identified by 'Redhat@123';
+    grant all privileges on sonarqube.* to 'sonarqube'@'localhost'; 
     flush privileges;
 ```
 ### Install Sonarqube
